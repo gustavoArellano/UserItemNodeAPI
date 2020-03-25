@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 var ItemSchema = new mongoose.Schema({
+    inStock = 0,
     length = 50,
     chunckSize = 50,
     filename = String,
