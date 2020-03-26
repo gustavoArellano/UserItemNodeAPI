@@ -1,13 +1,12 @@
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
+// mongoose.Promise = global.Promise;
 
-var ItemSchema = new mongoose.Schema({
-    inStock = 0,
-    length = 50,
-    chunckSize = 50,
-    filename = String,
-    contentType = String,
-    aliases = [],
-    metadata = null,
-}, {timestamps: true});
+// const ItemSchema = new mongoose.Schema({
+//     inStock: 0,
+//     itemName: {
+//         type: String,
+//         required: true
+//     }
+// }, {timestamps: true});
 
-mongoose.model('Item', ItemSchema)
+// mongoose.model('Item', ItemSchema)
